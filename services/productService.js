@@ -14,3 +14,17 @@ exports.getProductById = async (productId) => {
   })
   return product
 }
+
+
+// const Product = require('../models/Product');
+
+// exports.getProducts = async () => {
+//     const products = await Product.findAll();
+//     return products;
+// };
+
+// exports.getProductById = async (productId) => {
+//     const product = await Product.findByPk(productId);
+//     return product;
+// };
+
